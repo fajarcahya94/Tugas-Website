@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	width: 100%;
+	padding: 30px 0;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	margin: 15px;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: .3s ease-in-out;
+}
+
+nav ul li a:hover {
+	background-color: #5D95FF;
+	color: white;
+	box-shadow: 5px 10px 20px rgba(89, 135, 220, 1.0);
+}
+
+.aktif {
+	background-color: #5D95FF;
+	color: white;
+	box-shadow: 5px 10px 20px rgba(89, 135, 220, 1.0);
+}
+
+.nama {
+	color: black;
+	letter-spacing: 1px;
+}
+
+section.sec1 {
+	height: 88vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/computer.jpg);
+	background-size: cover;
+}
+
+.sec1 h2 {
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 4px 2px black;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+content h3 {
+	margin: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+content p {
+	padding: 0 100px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.fitur {
+	display: flex;
+	margin: 20px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.fitur-container {
+	margin: 20px;
+}
+
+.f-img {
+	background: url(img/ngoding.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	box-sizing: border-box;
+	height: 400px;
+	width: 400px;
+}
+
+.f-img1 {
+	background: url(img/living.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	box-sizing: border-box;
+	height: 400px;
+	width: 400px;
+}
+
+.f-text {
+	text-decoration: none;
+}
+
+.f-text h3, p {
+	margin: 0 10px;
+}
+
+.f-text-container {
+	padding: 10px;
+}
+
+.f-text-container a {
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #5D95FF;
+	color: white;
+	box-shadow: 5px 10px 20px rgba(89, 135, 220, 1.0);
+}
+
+footer {
+	border-radius: 20px 20px 0 0;
+	background-color: rgba(64, 67, 71, 1.0);
+}
+
+.container {
+	display: flex;
+	padding: 20px;
+}
+
+.card, .card2, .card3, .card4 {
+	margin: 0 100px;
+	color: #5D95FF;
+}
+
+.card h4, .card2 h4, .card3 h4, .card4 h4 {
+	margin: 20px 0;
+	font-size: 20px;
+	color: #5D95FF;
+}
+
+.anak ul li {
+	margin: 5px 0;
+	list-style: none;
+}
+
+.anak ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.sosial ul {
+	display: flex;
+}
+
+.sosial ul li {
+	list-style: none;
+}
+
+.sosial ul li a {
+	font-size: 25px;
+	color: white;
+	margin: 10px 10px 0 0;
+	list-style: none;
+}
